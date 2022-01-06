@@ -1,6 +1,4 @@
-head {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
  
 h1{
  
@@ -10,7 +8,12 @@ h1{
 
  body{
  font-family: 'Times New Roman', Times, serif;
- background-image: url("image/background.png") ;
+ background-image: linear-gradient(  #2c3e50,#3498db ), url("image/background.png") ;
+ background-blend-mode: screen;
+}
+
+section{
+  display: flex;
 }
 
 .name{
