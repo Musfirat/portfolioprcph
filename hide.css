@@ -7,9 +7,11 @@ h1{
 }
 
  body{
- font-family: 'Times New Roman', Times, serif;
- background-image: linear-gradient(  #2c3e50,#3498db ), url("image/background.png") ;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3%;
+  background-image: linear-gradient( #6c7bac,#6c9dce,#2572a5 ), url("image/background.png"), url("image/chemical\ bg.jpg")  ;
  background-blend-mode: screen;
+
 }
 
 section{
@@ -20,8 +22,14 @@ section{
     color: #91a2e4;
     font-weight: 700;
 }
-.small-head p {
-  color: #252b3f;
-  font-family: 'Times New Roman', Times, serif ;
 
+.half-width{
+  width: 100%;
+  padding: 3%;
 }
+
+.half-width img{
+  width: 80%;
+  padding-top: 15% ;
+}
+
